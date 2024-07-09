@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pages App with Django</title>
+</head>
+
+<body>
+    <header>
+        <a href="{% url 'home' %}">Home Page</a> | <a href="{% url 'about' %}">Home Page</a> 
+    </header>
+    {% block content %}
+
+    {% endblock content %}
+</body>
+
+</html>
